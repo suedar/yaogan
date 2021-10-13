@@ -26,6 +26,8 @@ export class Stick extends Component {
     type: Node;
     default: null;
   };
+  @property
+  Max_r:100;
 
   onTouchStart() {}
 
